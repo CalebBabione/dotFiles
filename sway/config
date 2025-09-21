@@ -23,6 +23,7 @@ output HDMI-A-1 transform 270 pos 4480 0 res 1920x1080
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
+exec swaybg -o HDMI-A-1 -i /home/cbabione/Pictures/Evangalion/coolAsuka.jpg -m fill -o DP-2 -i /home/cbabione/Pictures/Evangalion/asuka.png -m fit -o DP-1 -i /home/cbabione/Pictures/Evangalion/Eva.jpeg -m fit
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
