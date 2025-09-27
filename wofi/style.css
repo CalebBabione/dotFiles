@@ -15,7 +15,7 @@ window {
 }
 
 #entry:selected {
-	background-color: #bbccdd;
+	background-color: #e03f54;
 }
 
 #text:selected
@@ -24,6 +24,7 @@ window {
 }
 
 #input {
+	color: #e03f54;
 	background-color: rgba(50, 50, 50, 0.5);
 	color: white;
 	padding: 0.25em;

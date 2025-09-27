@@ -1,0 +1,70 @@
+/*
+ * appmenu
+ * wlr/taskbar
+ * sway/workspaces
+ * clock
+ * pulseaudio
+ * mpd
+ */
+
+* {
+	font-family: JetBrains-Mono;
+	color: white;
+}
+
+window#waybar{
+	    background-color: rgba(43, 48, 59, 0);
+	    transition-property: background-color;
+	    transition-duration: .5s;
+}
+
+/*
+#custom-launcher,
+#appmenu,
+#taskbar,
+#workspaces {
+	background-color: rgba(43, 48, 59, 0.5);
+}
+*/
+
+#custom-launcher,
+#clock,
+#pulseaudio,
+#mpd {
+	padding: 0 10px;
+}
+.modules-right {
+	background-color: rgba(43, 48, 59, 0.8);
+	margin: 0 10px;
+	margin-top: 3px;
+	border-radius: 5px;
+	color: white;
+}
+
+.modules-center {
+	background-color: rgba(43, 48, 59, 0.8);
+	margin: 0 10px;
+	margin-top: 3px;
+	border-radius: 5px;
+	color: white;
+}
+
+.modules-left {
+	background-color: rgba(43, 48, 59, 0.8);
+	margin: 0 10px;
+	margin-top: 3px;
+	border-radius: 5px;
+	color: white;
+}
+
+#clock{
+	padding: 0 10px;
+}
+
+#pulseaudio{
+	padding: 0 10px;
+}
+
+#custom-power{
+	padding: 0 10px;
+}
